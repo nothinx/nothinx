@@ -49,33 +49,35 @@ public:
 
 **Languages**
 
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00427E?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,python,dart,html,js&theme=dark" />
+  </a>
+</p>
 
-**Embedded & Hardware**
+**Embedded & Frameworks**
 
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/Jetson%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Teensy](https://img.shields.io/badge/Teensy%204.1-CC0000?style=flat-square&logo=arm&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![PCA9685](https://img.shields.io/badge/PCA9685%20Servo%20Driver-grey?style=flat-square)
-![CMSIS-DSP](https://img.shields.io/badge/CMSIS--DSP%20SIMD-0091BD?style=flat-square&logo=arm&logoColor=white)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=arduino,ros,flutter,opencv,firebase,linux,git&theme=dark" />
+  </a>
+</p>
 
-**Frameworks & Tools**
+**Tools & Platforms**
 
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipse-mosquitto&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Google Gemini](https://img.shields.io/badge/Gemini%20AI-4285F4?style=flat-square&logo=google&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,github,cmake,qt&theme=dark" />
+  </a>
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nothinx&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
+</div>
 
 ---
 
@@ -97,8 +99,7 @@ A modular, high-performance hexapod firmware for **Teensy 4.1** built on a clean
 | `HexaGait` | Smooth Tripod Gait trajectory generator |
 | `Hexapod` | Facade API — `robot.walk()`, `robot.goHome()` |
 
-![C](https://img.shields.io/badge/C++-00427E?style=flat-square&logo=cplusplus&logoColor=white)
-![Teensy](https://img.shields.io/badge/Teensy%204.1-CC0000?style=flat-square&logo=arm&logoColor=white)
+<img src="https://skillicons.dev/icons?i=cpp&theme=dark" height="20"/> C++ &nbsp; <img src="https://skillicons.dev/icons?i=arduino&theme=dark" height="20"/> Teensy 4.1
 
 </td>
 <td width="50%" valign="top">
@@ -106,7 +107,7 @@ A modular, high-performance hexapod firmware for **Teensy 4.1** built on a clean
 ### 🌿 TEKNOFEST Smart Agriculture Monitor
 **[TEKNOFEST-JETSON-Program](https://github.com/nothinx/TEKNOFEST-JETSON-Program)** &nbsp;·&nbsp; **[otw_turki](https://github.com/nothinx/otw_turki)**
 
-A real-time monitoring & control dashboard built for the **TEKNOFEST Turkey 🇹🇷 Agriculture** competition, running on **NVIDIA Jetson Nano**:
+Real-time monitoring & control dashboard for **TEKNOFEST Turkey 🇹🇷**, running on **NVIDIA Jetson Nano**:
 
 - 📡 MQTT sensor streaming (`temp, hum, lux, eCO₂, TVOC`)
 - 🔌 Serial JSON telemetry from microcontroller
@@ -114,9 +115,7 @@ A real-time monitoring & control dashboard built for the **TEKNOFEST Turkey 🇹
 - 🕹️ Manual + Auto control panels
 - ☁️ Open-Meteo weather fallback
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipse-mosquitto&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,qt&theme=dark" height="20"/> Python · PySide6
 
 </td>
 </tr>
@@ -133,9 +132,7 @@ Teleoperated mobile robot on **Jetson Nano** with full autonomous capabilities:
 - 🧭 Autonomous navigation with Nav2
 - 📷 Intel RealSense D435 depth + T265 localization
 
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/Jetson%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white)
+<img src="https://skillicons.dev/icons?i=ros,python&theme=dark" height="20"/> ROS2 · Python
 
 </td>
 <td width="50%" valign="top">
@@ -150,9 +147,7 @@ A Flutter mobile app for the R2C team powered by **Google Gemini AI**:
 - ⚡ `gemini-1.5-flash` vision model integration
 - 🔥 Firebase-ready architecture
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini%20AI-4285F4?style=flat-square&logo=google&logoColor=white)
+<img src="https://skillicons.dev/icons?i=flutter,dart,firebase&theme=dark" height="20"/> Flutter · Dart · Firebase
 
 </td>
 </tr>
@@ -160,7 +155,7 @@ A Flutter mobile app for the R2C team powered by **Google Gemini AI**:
 
 ---
 
-## 🏆 Competitions & Achievements
+## 🏅 Competitions & Achievements
 
 <div align="center">
 
@@ -183,6 +178,26 @@ A Flutter mobile app for the R2C team powered by **Google Gemini AI**:
 
 <div align="center">
   <img width="70%" src="https://streak-stats.demolab.com?user=nothinx&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=nothinx&theme=tokyo-night&hide_border=true&area=true" />
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nothinx/nothinx/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nothinx/nothinx/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/nothinx/nothinx/output/github-snake.svg" />
+  </picture>
 </div>
 
 ---
