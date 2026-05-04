@@ -26,7 +26,7 @@
 class AmadeoWisesa {
 public:
     std::string name     = "Amadeo Wisesa";
-    std::string team     = "R2C Robotics";
+    std::string role     = "Head of R2C Robotics & PPD Guest Instructor";
     std::string location = "Indonesia 🇮🇩";
 
     std::vector<std::string> currentlyBuilding = {
@@ -204,6 +204,7 @@ A Flutter mobile app for the R2C team powered by **Google Gemini AI**:
 
 ## 🎯 Currently
 
+- 👨‍🏫 Teaching C++ Programming Foundation (PPD) at **FTEK UKSW**
 - 🔧 Refining hexapod gait & stability algorithms
 - 🌿 Competing at **TEKNOFEST Turkey** with smart agriculture robot
 - 📡 Exploring ROS2 + edge AI on Jetson platforms
