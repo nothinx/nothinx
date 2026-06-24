@@ -188,7 +188,7 @@ fun_fact: "I debug hardware with a multimeter and software with printf 🔧"
 <td width="50%" valign="top">
 
 ### 🦾 Hexapod Robot Firmware
-<p><a href="https://github.com/nothinx/legacy_2025"><b>legacy_2025</b></a> · <a href="https://github.com/nothinx/program_hexapod_robot_legacy"><b>program_hexapod_robot_legacy</b></a></p>
+<p><a href="https://github.com/nothinx/legacy-2026"><b>legacy-2026</b></a></p>
 
 A modular, high-performance hexapod firmware for **Teensy 4.1** built on a clean 4-layer architecture.
 
@@ -210,7 +210,7 @@ A modular, high-performance hexapod firmware for **Teensy 4.1** built on a clean
 <td width="50%" valign="top">
 
 ### 🌍 IoT Environment Monitor
-<p><a href="https://github.com/nothinx/IoT_Turki"><b>IoT_Turki</b></a> · <a href="https://github.com/nothinx/R2C-goes-to-Turkey"><b>R2C-goes-to-Turkey</b></a></p>
+<p><a href="https://github.com/nothinx/IoT_Turki"><b>IoT_Turki</b></a> · <a href="https://github.com/nothinx/otw_turki"><b>otw_turki</b></a></p>
 
 Smart environmental monitoring system for the **TEKNOFEST Turkey** international competition. Real-time sensor data with cloud analytics.
 
