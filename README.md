@@ -1,98 +1,38 @@
-<p align="center">
-  <img src="./assets/robotics-playground.png" width="100%" alt="Amadeo Wisesa. A little code. A lot of motion. An illustrated hexapod in a sunlit robotics workshop." />
-</p>
+## Amadeo Wisesa
 
-<p align="center">
-  <a href="#on-the-workbench">Projects</a> &nbsp; / &nbsp;
-  <a href="#the-toolbox">Toolbox</a> &nbsp; / &nbsp;
-  <a href="https://github.com/nothinx/Pengajaran-Program-Deo">Learn C++ with me</a> &nbsp; / &nbsp;
-  <a href="mailto:wisesaamadeo@gmail.com">Say hello</a>
-</p>
+**Embedded systems & robotics engineer · Indonesia**
 
-### Hey, I'm Deo 👋
+I build firmware, control software, and computer-vision pipelines for robots and
+measurement instruments, from the microcontroller up to the desktop application.
+I also teach introductory programming at the Faculty of Electronics and Computer
+Engineering (FTEK), Universitas Kristen Satya Wacana.
 
-I build robots, write the firmware that moves them, and teach people how to make their first program work. Based in **Indonesia**, with a workbench somewhere between **legged robotics, embedded systems, and computer vision**.
+**Focus areas:** embedded firmware · legged robot kinematics & gait control ·
+computer vision on edge devices · instrumentation & test-equipment software · IoT
 
-My work includes **R2C robotics**, teaching **PPD at FTEK UKSW**, and agriculture experiments for **TEKNOFEST**. This is where I share the code, the experiments, and the things I learn along the way.
+### Selected projects
 
-> Hardware gets the multimeter. Software gets `printf`.
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| [legacy-2026](https://github.com/nothinx/legacy-2026) | Hexapod robot for the Indonesian national robotics contest (KRSRI): 4-layer firmware, inverse kinematics, closed-loop navigation, on-board vision | C++, Teensy 4.1, Raspberry Pi 5, YOLO |
+| [RECELL-AI](https://github.com/nothinx/RECELL-AI) | Second-life battery grading combining visual inspection with electrical measurements and state-of-health estimation | Python, YOLOv8, XGBoost, STM32, PyQt |
+| [ArahMPU6050](https://github.com/nothinx/ArahMPU6050) | Arduino library for heading tracking with the MPU6050 IMU, listed in the Arduino Library Manager | C++, Arduino, ESP32, STM32 |
+| [web-based-emisi-carbon](https://github.com/nothinx/web-based-emisi-carbon) | Multi-domain carbon emission (CO₂e) calculator with traceable factors and uncertainty estimates | FastAPI, React, TypeScript |
+| [robot-gudang](https://github.com/nothinx/robot-gudang) | Autonomous warehouse robot simulation with A* path planning | Python, Pygame |
+| [Pengajaran-Program-Deo](https://github.com/nothinx/Pengajaran-Program-Deo) | Course material for introductory C++ programming at FTEK UKSW | C++ |
 
-## On the workbench
+Professionally, I also develop software for vehicle roadworthiness test equipment
+(brake, side-slip, and speedometer testers); that work lives in private repositories.
 
-### 01 / Six legs. One very interesting debugging session.
+### Tools
 
-**[Hexapod KRSRI](https://github.com/nothinx/legacy-2026)**
-
-Making a six-legged robot walk, sense its surroundings, and search for victims. Inverse kinematics and gait control run on a Teensy 4.1, with Raspberry Pi vision alongside the motion firmware.
-
-`C++` · `Teensy 4.1` · `Inverse kinematics` · `Raspberry Pi` · `YOLO`
-
-[Explore the firmware](https://github.com/nothinx/legacy-2026/tree/master/HEXAPOD_KRSRI_2026) · [See the vision system](https://github.com/nothinx/legacy-2026/tree/master/RASPI_VISION_KRSRI)
-
-### 02 / A second opinion. A second life.
-
-**[RECELL-AI](https://github.com/nothinx/RECELL-AI)**
-
-A used-battery grading system combining visual inspection with electrical measurements. Computer vision, state-of-health estimation, STM32 control, and a desktop dashboard come together around one question: what can this battery still do?
-
-<a href="https://github.com/nothinx/RECELL-AI">
-  <img src="https://raw.githubusercontent.com/nothinx/RECELL-AI/master/docs/images/dashboard_complete.png" width="100%" alt="RECELL-AI project dashboard showing a completed battery grading cycle." />
-</a>
-
-<sub>From the RECELL-AI repository: the dashboard after a grading cycle.</sub>
-
-`Python` · `YOLOv8` · `XGBoost` · `STM32` · `PyQt`
-
-### 03 / Out of the lab. Into the field.
-
-**[TEKNOFEST agriculture experiments](https://github.com/nothinx/otw_turki)**
-
-Microcontroller code and sensor experiments for an agriculture competition project. Working where electronics, environmental sensing, and the physical world meet.
-
-### 04 / Everyone starts with a first program.
-
-**[Pengajaran Program Deo](https://github.com/nothinx/Pengajaran-Program-Deo)**
-
-C++ learning materials for students at FTEK UKSW: setup, variables, operators, and input/output. Small steps toward understanding what the code actually does.
-
-[Start with topic 1](https://github.com/nothinx/Pengajaran-Program-Deo/tree/master/TOPIK_1)
-
-### 05 / Install it. Read it. Make it move.
-
-**[Arduino libraries](https://github.com/nothinx?tab=repositories&q=topic%3Aarduino-library)**
-
-Sensors, actuators, and the small helpers every robot ends up needing, packaged as libraries you can install straight from the Arduino IDE. Each one is listed in the official Arduino Library Manager, runs on AVR, ESP32, and STM32, and speaks Bahasa Indonesia, so students and makers can read their code like a sentence.
-
-New libraries land regularly.
-
-`C++` · `Arduino` · `ESP32` · `STM32` · `Bahasa Indonesia`
-
-[See all my Arduino libraries](https://github.com/nothinx?tab=repositories&q=topic%3Aarduino-library) · [Browse all my repositories](https://github.com/nothinx?tab=repositories)
-
-## The toolbox
-
-| When I'm working on… | I reach for… |
+| Area | Tools |
 | :--- | :--- |
-| Motion & firmware | C / C++, Teensy, STM32, Arduino |
-| Vision & data | Python, OpenCV, YOLO, XGBoost |
-| Interfaces & connected systems | Qt, Flutter, Firebase |
-| Day-to-day building | Linux, Git, CMake, a multimeter |
+| Firmware & control | C, C++, Arduino, Teensy, STM32, ESP32 |
+| Vision & data | Python, OpenCV, YOLO, scikit-learn, XGBoost |
+| Applications | Qt / PyQt, C# / .NET, FastAPI, React, Flutter |
+| Infrastructure | Linux, Git, CMake, MQTT |
 
-<details>
-  <summary><b>A small break: watch the contribution snake 🐍</b></summary>
-  <br />
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/robotics-playground.png" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nothinx/nothinx/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/nothinx/nothinx/output/github-snake.svg" width="100%" alt="An animated snake travels through my GitHub contribution calendar; a static workshop illustration is shown when reduced motion is preferred." />
-  </picture>
-</details>
+### Contact
 
----
-
-<p align="center">
-  <b>Building something that moves, senses, or teaches?</b><br />
-  I'd enjoy hearing about it.<br /><br />
-  <a href="mailto:wisesaamadeo@gmail.com">wisesaamadeo@gmail.com</a><br />
-  <sub>Amadeo Wisesa · nothinx · Indonesia</sub>
-</p>
+[wisesaamadeo@gmail.com](mailto:wisesaamadeo@gmail.com)
