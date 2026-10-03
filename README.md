@@ -55,7 +55,19 @@ Microcontroller code and sensor experiments for an agriculture competition proje
 
 C++ learning materials for students at FTEK UKSW: setup, variables, operators, and input/output. Small steps toward understanding what the code actually does.
 
-[Start with topic 1](https://github.com/nothinx/Pengajaran-Program-Deo/tree/master/TOPIK_1) · [Browse all my repositories](https://github.com/nothinx?tab=repositories)
+[Start with topic 1](https://github.com/nothinx/Pengajaran-Program-Deo/tree/master/TOPIK_1)
+
+### 05 / Install it. Read it. Make it move.
+
+**[Arduino libraries](https://github.com/nothinx?tab=repositories&q=topic%3Aarduino-library)**
+
+Sensors, actuators, and the small helpers every robot ends up needing, packaged as libraries you can install straight from the Arduino IDE. Each one is listed in the official Arduino Library Manager, runs on AVR, ESP32, and STM32, and speaks Bahasa Indonesia, so students and makers can read their code like a sentence.
+
+New libraries land regularly.
+
+`C++` · `Arduino` · `ESP32` · `STM32` · `Bahasa Indonesia`
+
+[See all my Arduino libraries](https://github.com/nothinx?tab=repositories&q=topic%3Aarduino-library) · [Browse all my repositories](https://github.com/nothinx?tab=repositories)
 
 ## The toolbox
 
